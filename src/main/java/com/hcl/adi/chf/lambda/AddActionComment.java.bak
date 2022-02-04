@@ -13,7 +13,7 @@ import com.hcl.adi.chf.util.ResponseGenerator;
 /**
  * This lambda function will persist comments corresponding to a patient action
  *
- * @author Suparna
+ * @author Shivendra Singh
  */
 public final class AddActionComment implements RequestHandler<PatientActionComments, PatientActionComments> {
 	private static final Logger LOGGER = LogManager.getLogger(AddActionComment.class.getName());
